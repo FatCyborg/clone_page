@@ -1,0 +1,68 @@
+/*html { 
+    background: url(images/bg.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  } */
+
+/* body */
+
+/* logo */
+
+.flex-container {
+    display: flex;
+}
+
+.flex-item {
+    flex: 1;
+}
+
+.justify-between {
+    justify-content: center;
+}
+
+.link-bar {
+    justify-content: space-between;
+    background-color: #050A30;
+    margin: 20px;
+}
+
+.head-link {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin: 8px;
+}
+
+.top-section {
+    background-color: #050A30;
+    margin: 30px;
+}
+
+/* introduction-text
+
+hero-main
+
+hero-secondary
+
+button
+
+mid-section1
+
+mid-section1-title
+
+mid-section1-boxes
+
+mid-link
+
+mid-link-text
+
+mid-section2
+
+quote-box
+
+bottom-section
+
+action-text
+
+action-box */
