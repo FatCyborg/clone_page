@@ -17,7 +17,7 @@
     box-sizing: border-box;
   }
 
-.flex-container {
+/*.flex-container {
     display: flex;
 }
 
@@ -28,7 +28,7 @@
 .justify-between {
     justify-content: center;
 }
-
+*/
 .logo {
     flex: 1;
 }
@@ -40,9 +40,12 @@
 
 .header {
     background-color: #050A30;
-    padding: 8px;
-    height: 50px;
-    width: 1400px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 250px;
+    padding-right: 250px;
+    height: max-content;
+    width: 1440px;
     flex: 1 1 auto;
     justify-content: space-between;
     display:inline-flex;
@@ -51,10 +54,12 @@
 .header-text {
     color:#f9faff;
     font: 18px; 
+    margin: 16px;
 }
 
 .header-link-box {
     display: flex;
+    justify-content: flex-end;
     flex: 1;
 }
 
@@ -64,26 +69,43 @@ a.head-link:hover {
 
 .top-section {
     background-color: #050A30;
-    padding: 30px;
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-top: 150px;
+    padding-bottom: 150px;
     margin: 0;
-    width: 1400px;
-    height: 100px;
+    width: 1440px;
+    height: max-content;
     flex: 1 1 auto;
+    display: inline-flex;
+
 }
 
-/* introduction-text
+.introduction-text {
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+}
 
-hero-main
+.hero-main {
+    font-size: 48px;
+    font-weight: 800;
+    color: #f9faff;
+}
 
-hero-secondary
-
+.hero-secondary {
+    color:#f9faff;
+    font: 18px
+}
+/*
 button
 */
 
 .mid-section1 {
     background-color: cornsilk;
     padding: 30px;
-    height: 100px;
+    width: 1440px;
+    height: max-content;
     flex: 1 1 auto;
 }
 
@@ -99,14 +121,16 @@ mid-link-text
 .mid-section2 {
     background-color: darkgray;
     padding: 30px;
-    height: 100px;
+    width: 1440px;
+    height: max-content;
     flex: 1 1 auto;
 }
 
 .bottom-section {
     background-color: blue;
     padding: 30px;
-    height: 100px;
+    width: 1440px;
+    height: max-content;
     flex: 1 1 auto;
 }
 /*
