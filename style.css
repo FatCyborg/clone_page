@@ -151,13 +151,34 @@ button
 }
 
 .mid-section2 {
-    background-color: darkgray;
-    padding: 30px;
+    background-color: #E5E7EB;
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    margin: 0;
     width: 1440px;
     height: max-content;
     flex: 1 1 auto;
 }
 
+.quote-box {
+    display:inline-flex;
+    flex-direction: column;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.quote-author {
+    font-size: 24px;
+    font-weight: bold;
+    color: #050A30;
+    text-align: right;
+}
 .bottom-section {
     background-color: blue;
     padding: 30px;
