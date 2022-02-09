@@ -76,10 +76,10 @@ a.head-link:hover {
 
 .top-section {
     background-color: #050A30;
-    padding-left: 250px;
-    padding-right: 250px;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     margin: 0;
     width: 1440px;
     height: max-content;
@@ -114,9 +114,9 @@ a.head-link:hover {
 
 .mid-section1 {
     background-color: #f9faff;
-    padding-left: 250px;
-    padding-right: 250px;
-    padding-top: 100px;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-top: 0px;
     padding-bottom: 100px;
     margin: 0;
     width: 1440px;
@@ -129,6 +129,7 @@ a.head-link:hover {
 .mid-section1-title {
     text-align: center;
     font-size: 36px;
+    margin: 50px;
     font-weight: 800;
     color: #050A30;
 }
@@ -160,8 +161,8 @@ a.head-link:hover {
 
 .mid-section2 {
     background-color: #E5E7EB;
-    padding-left: 250px;
-    padding-right: 250px;
+    padding-left: 300px;
+    padding-right: 300px;
     padding-top: 100px;
     padding-bottom: 100px;
     margin: 0;
@@ -177,6 +178,7 @@ a.head-link:hover {
 
 .quote-text {
     font-size: 36px;
+    margin: 0px;
     font-weight: 100;
     font-style: italic;
 }
@@ -190,10 +192,10 @@ a.head-link:hover {
 
 .mid-section3 {
     background-color: #f9faff;
-    padding-left: 250px;
-    padding-right: 250px;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     margin: 0;
     width: 1440px;
     height: max-content;
@@ -209,14 +211,29 @@ a.head-link:hover {
     height: max-content;
     flex: 1;
 }
-/*
-action-text*/
+
+.action-title {
+    font: 24px;
+    font-weight: bold;
+    color: #f9faff;
+    margin: 0px;
+}
+
+.action-text {
+    color:#f9faff;
+    font: 18px;
+    margin: 0px;
+}
 
 .action-box {
     background-color: #3882f6;
+    border-radius: 25px;
     width: 1000;
     height: 300;
-    padding: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 100px;
+    padding-left: 100px;
     flex: 1 1 auto;
     display: inline-flex;
     justify-content: space-between;
